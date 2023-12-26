@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.2.0",
+    "unocss": "^0.58.0",
+    "vitepress": "1.0.0-rc.32",
+    "vue": "^3.3.13"
+  }
+}
