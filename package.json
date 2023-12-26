@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/fs-extra": "^11.0.4",
+    "@vueuse/core": "^10.7.0",
     "fs-extra": "^11.2.0",
     "unocss": "^0.58.0",
     "vitepress": "1.0.0-rc.32",
