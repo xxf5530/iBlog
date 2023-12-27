@@ -83,7 +83,7 @@ $ git status -s
 
 ::: info 📌 关于 HEAD 指针
 
-- 个人觉得这是 git 种很重要的一个概念，是后续理解 git 分支的基础
+- 个人觉得这是 git 中很重要的一个概念，也是后续理解 git 分支的基础
 - HEAD 是当前分支引用的指针，指向该分支上一次的 commit-id，每进行一次成功提交，HEAD 指针都会向前移动一次
 - 使用 `git reset HEAD~` (等效于 `git reset HEAD~1`)， 意味者将当前分支重置到最近的一次提交前，HEAD 指针会**向后退一步**，而使用 `git reset HEAD`， 意味着重置暂存区，此时 HEAD 指针并**不会移动**
 

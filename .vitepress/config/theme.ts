@@ -1,4 +1,6 @@
 import type { DefaultTheme } from 'vitepress'
+import { getNotesByCategory } from '../theme/utils/notes'
+import notesJson from '../data/__notes.json'
 
 export type ThemeConfig = DefaultTheme.Config & {}
 
@@ -16,7 +18,9 @@ export const nav: ThemeConfig['nav'] = [
   { text: '关于', link: '/about' },
 ]
 
-export const sidebar: ThemeConfig['sidebar'] = {}
+export const sidebar: ThemeConfig['sidebar'] = {
+  '/notes/': getNotesSidebar(getNotesByCategory(notesJson)),
+}
 
 export const themeConfig: ThemeConfig = {
   nav,
@@ -26,4 +30,12 @@ export const themeConfig: ThemeConfig = {
   sidebarMenuLabel: '目录',
   returnToTopLabel: '返回顶部',
   darkModeSwitchLabel: '深色模式',
+}
+
+function getNotesSidebar(notes: MarkdownMap) {
+  return Object.keys(notes).map(key => ({
+    text: key,
+    collapsed: false,
+    items: notes[key].map(({ title: text, link }) => ({ text, link })),
+  }))
 }
