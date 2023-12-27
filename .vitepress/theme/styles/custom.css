@@ -47,11 +47,11 @@
 
 :root {
   --font-prefer: 'LXGW Wenkai Screen';
-  --vp-font-family-base: 'Chinese Quotes', var(--font-prefer), -apple-system,
-    BlinkMacSystemFont, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji,
-    Roboto, Oxygen, Ubuntu, sans-serif;
-  --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
-    Consolas, 'Courier New', var(--font-prefer, sans-serif), monospace;
+  --vp-font-family-base: 'Chinese Quotes', var(--font-prefer), Apple Color Emoji,
+    Segoe UI Emoji, Noto Color Emoji, system-ui, -apple-system, sans-serif,
+    PingFang SC, 'Microsoft YaHei', Roboto, Helvetica;
+  --vp-font-family-mono: SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas,
+    'Courier New', var(--font-prefer), sans-serif monospace;
 }
 
 /**

@@ -7,7 +7,7 @@ withDefaults(
   {
     center: true,
     client: true,
-  }
+  },
 )
 </script>
 

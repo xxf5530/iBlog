@@ -53,7 +53,7 @@ watch(
       pIndex = 0
     }
   },
-  { flush: 'post' }
+  { flush: 'post' },
 )
 </script>
 

@@ -18,7 +18,7 @@ export default defineConfig({
     [
       'link',
       {
-        href: 'https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/lxgwwenkaiscreen.css',
+        href: 'https://lib.baomitu.com/lxgw-wenkai-screen-webfont/1.7.0/style.min.css',
         rel: 'stylesheet',
         as: 'font',
       },
@@ -36,7 +36,7 @@ export default defineConfig({
       const fileLink = '/' + relativePath.replace(/\.md$/, '')
       const markMeta = getMarkdownMeta(
         fileLink,
-        isPosts ? postsJson : notesJson
+        isPosts ? postsJson : notesJson,
       )
       const updatedFrontmatter: Record<string, any> = {
         customHeader: isPosts ? 'center' : true,

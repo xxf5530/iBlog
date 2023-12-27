@@ -96,7 +96,7 @@ function linearConflict(board: Board, width: number) {
 
 function getCachedManhattanDistance(total: number, width: number) {
   const cache: number[][] = Array.from({ length: total }, () =>
-    Array(total).fill(0)
+    Array(total).fill(0),
   )
   for (let i = 0; i < total; i++) {
     for (let j = 0; j < total; j++) {
@@ -140,7 +140,7 @@ function getMovePathRoad(node: SearchNode) {
 export function getMoveGuideMap(
   w: number,
   len: number,
-  lockedPositions: number[] = []
+  lockedPositions: number[] = [],
 ) {
   const map: Record<number, number[]> = {}
   const h = Math.ceil(len / w)
@@ -168,7 +168,7 @@ export function getMoveGuideMap(
 export function solveByAStar(
   from: Board,
   width: number,
-  moveMap?: Record<number, number[]>
+  moveMap?: Record<number, number[]>,
 ) {
   moveMap = moveMap || getMoveGuideMap(width, from.length)
   const distanceCache = getCachedManhattanDistance(from.length, width)

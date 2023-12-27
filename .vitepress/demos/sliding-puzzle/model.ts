@@ -52,7 +52,7 @@ export class SlidingPuzzleModel implements ModelProps {
         {
           length: length - 1,
         },
-        (_, i) => ({ value: i + 1, position: i })
+        (_, i) => ({ value: i + 1, position: i }),
       )
       this.currentBlank = {
         value: blank,
@@ -64,7 +64,7 @@ export class SlidingPuzzleModel implements ModelProps {
         value: blank,
         position: tiles.reduce(
           (prev, curr) => prev - curr.position,
-          length * (length - 1) * 0.5
+          length * (length - 1) * 0.5,
         ),
       }
     }

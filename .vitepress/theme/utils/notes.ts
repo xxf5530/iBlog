@@ -41,7 +41,7 @@ export function getNotesByCategory(source: MarkdownArr, fallback = '未归类') 
   acc.forEach((value, key) => {
     acc.set(
       key,
-      value.sort((a, b) => b.title.localeCompare(a.title))
+      value.sort((a, b) => b.title.localeCompare(a.title)),
     )
   })
   return Object.fromEntries(acc)
@@ -72,6 +72,6 @@ export function getNotesByTags(source: MarkdownArr) {
   }, {} as MarkdownMap)
 
   return Object.fromEntries(
-    Object.entries(raw).sort((a, b) => b[1].length - a[1].length)
+    Object.entries(raw).sort((a, b) => b[1].length - a[1].length),
   )
 }
