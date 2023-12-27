@@ -14,5 +14,7 @@ function toTop() {
     hover="bg-black/5 dark:bg-white/10 op-100"
     :class="scrollY < 600 ? 'pointer-events-none !op-0' : 'op-60'"
     @click="toTop"
-  ></div>
+  >
+    <span i-tabler-arrow-up />
+  </div>
 </template>

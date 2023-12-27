@@ -1,0 +1,68 @@
+{
+  "stamp": 1703648203663,
+  "items": {
+    "vuejs/vitepress": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
+      "html_url": "https://github.com/vuejs/vitepress",
+      "description": "Vite & Vue powered static site generator.",
+      "language": "TypeScript",
+      "stargazers_count": 9728,
+      "forks_count": 1649,
+      "pushed_at": "2023-12-27T01:52:54Z"
+    },
+    "vuejs/core": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/6128107?v=4",
+      "html_url": "https://github.com/vuejs/core",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "language": "TypeScript",
+      "stargazers_count": 42242,
+      "forks_count": 7713,
+      "pushed_at": "2023-12-27T03:08:53Z"
+    },
+    "vueuse/vueuse": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/77578415?v=4",
+      "html_url": "https://github.com/vueuse/vueuse",
+      "description": "Collection of essential Vue Composition Utilities for Vue 2 and 3",
+      "language": "TypeScript",
+      "stargazers_count": 17725,
+      "forks_count": 2238,
+      "pushed_at": "2023-12-26T14:44:20Z"
+    },
+    "unocss/unocss": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/93899228?v=4",
+      "html_url": "https://github.com/unocss/unocss",
+      "description": "The instant on-demand atomic CSS engine.",
+      "language": "TypeScript",
+      "stargazers_count": 14284,
+      "forks_count": 703,
+      "pushed_at": "2023-12-27T00:42:33Z"
+    },
+    "type-challenges/type-challenges": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/68700335?v=4",
+      "html_url": "https://github.com/type-challenges/type-challenges",
+      "description": "Collection of TypeScript type challenges with online judge",
+      "language": "TypeScript",
+      "stargazers_count": 38071,
+      "forks_count": 4093,
+      "pushed_at": "2023-12-26T05:07:39Z"
+    },
+    "sindresorhus/type-fest": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/170270?v=4",
+      "html_url": "https://github.com/sindresorhus/type-fest",
+      "description": "A collection of essential TypeScript types",
+      "language": "TypeScript",
+      "stargazers_count": 12574,
+      "forks_count": 478,
+      "pushed_at": "2023-12-26T04:03:59Z"
+    },
+    "total-typescript/ts-reset": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/107223871?v=4",
+      "html_url": "https://github.com/total-typescript/ts-reset",
+      "description": "A 'CSS reset' for TypeScript, improving types for common JavaScript API's",
+      "language": "TypeScript",
+      "stargazers_count": 7196,
+      "forks_count": 110,
+      "pushed_at": "2023-12-19T13:23:20Z"
+    }
+  }
+}

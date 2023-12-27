@@ -3,15 +3,27 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "build": "npm run dump &&  build",
+    "preview": "vitepress preview",
+    "dump": "node scripts/dump"
   },
   "dependencies": {
+    "@iconify-json/line-md": "^1.1.33",
+    "@iconify-json/tabler": "^1.1.102",
     "@types/fs-extra": "^11.0.4",
     "@vueuse/core": "^10.7.0",
+    "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
+    "gray-matter": "^4.0.3",
+    "ofetch": "^1.3.3",
     "unocss": "^0.58.0",
-    "vitepress": "1.0.0-rc.32",
+    "vitepress": "1.0.0-rc.33",
     "vue": "^3.3.13"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "consistent"
   }
 }
