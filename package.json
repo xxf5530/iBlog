@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "@iconify-json/line-md": "^1.1.33",
+    "@iconify-json/svg-spinners": "^1.1.2",
     "@iconify-json/tabler": "^1.1.102",
     "@types/fs-extra": "^11.0.4",
     "@vueuse/core": "^10.7.0",
+    "canvas-confetti": "^1.9.2",
+    "delay": "^6.0.0",
     "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
     "gray-matter": "^4.0.3",

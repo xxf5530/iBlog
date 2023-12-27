@@ -1,0 +1,38 @@
+{
+  "locales": {
+    "easy": "初级",
+    "medium": "中级",
+    "hard": "高级",
+    "custom": "自定义"
+  },
+  "gridLabelPresets": {
+    "flag": "🚩",
+    "mine": "💣",
+    "boom": "💥",
+    "time": "⏱️",
+    "fast": "🚀"
+  },
+  "stateEmojiPresets": {
+    "ready": "🙂",
+    "playing": "🤔",
+    "victory": "😎",
+    "defeat": "😵"
+  },
+  "levelPresets": {
+    "easy": {
+      "w": 9,
+      "h": 9,
+      "m": 10
+    },
+    "medium": {
+      "w": 16,
+      "h": 16,
+      "m": 40
+    },
+    "hard": {
+      "w": 30,
+      "h": 16,
+      "m": 99
+    }
+  }
+}

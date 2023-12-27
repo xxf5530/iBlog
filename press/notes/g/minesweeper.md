@@ -10,6 +10,10 @@ tags:
 
 ## 试玩
 
+<script setup>import C from '@/demos/minesweeper'</script>
+
+<DemoWrapper><C /></DemoWrapper>
+
 ## 日志
 
 在“遥远”的 win 98 时代，扫雷就已经是家喻户晓的小游戏了。而现在，我在网络上还时不时看到这样一个段子 —— “你这个配置，能流畅运行扫雷吗”😆。  
