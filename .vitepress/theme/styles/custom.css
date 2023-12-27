@@ -51,7 +51,7 @@
     BlinkMacSystemFont, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji,
     Roboto, Oxygen, Ubuntu, sans-serif;
   --vp-font-family-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
-    Consolas, 'Courier New', var(--font-prefer, sans-serif);
+    Consolas, 'Courier New', var(--font-prefer, sans-serif), monospace;
 }
 
 /**
