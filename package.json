@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev",
-    "build": "npm run dump &&  build",
+    "build": "npm run dump && vitepress build",
     "preview": "vitepress preview",
     "dump": "node scripts/dump"
   },

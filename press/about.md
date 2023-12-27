@@ -17,6 +17,15 @@
 
 ❤️ 主要使用的开源项目：[vue](https://github.com/vuejs/core) | [vueuse](https://github.com/vueuse/vueuse) | [unocss](https://github.com/unocss/unocss)
 
+<T icon='i-tabler-brand-github' label="查看详情">
+  <div class="mt-2 flex flex-col gap-2">
+    <GitRepoCard endPoint='vuejs/vitepress' />
+    <GitRepoCard endPoint='vuejs/core' />
+    <GitRepoCard endPoint='vueuse/vueuse' />
+    <GitRepoCard endPoint='unocss/unocss' />
+  </div>
+</T>
+
 ## 作者自述
 
 <small>~~这个懒很人，什么述都描不写想~~</small>
