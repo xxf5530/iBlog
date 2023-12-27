@@ -7,6 +7,7 @@ import notesJson from '../data/__notes.json'
 
 export default defineConfig({
   srcDir: 'press',
+  outDir: 'dist',
   cacheDir: 'node_modules/.vitepress',
   cleanUrls: true,
   themeConfig,

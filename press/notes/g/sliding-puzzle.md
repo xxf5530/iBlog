@@ -13,6 +13,10 @@ tags:
 
 ## 试玩
 
+<script setup>import C from '@/demos/sliding-puzzle'</script>
+
+<DemoWrapper><C /></DemoWrapper>
+
 ## 日志
 
 ### 实现自动求解
