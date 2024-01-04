@@ -30,6 +30,10 @@ tags:
 
 > N 表示皇后数量（1 ≤ N ≤ 15）
 
+<script setup>import C from '@/demos/n-queens'</script>
+
+<ClientOnly><C /></ClientOnly>
+
 ## 代码示例
 
 <details open>

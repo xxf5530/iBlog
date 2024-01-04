@@ -1,3 +1,4 @@
+import { execSync } from 'child_process'
 import fg from 'fast-glob'
 import gm from 'gray-matter'
 import fs from 'fs-extra'
