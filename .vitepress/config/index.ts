@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import themeConfig from './theme'
 import unocss from 'unocss/vite'
-import { tsConfigPaths } from './alias'
+import { tsConfigPaths, vpComponentAlias } from './alias'
 
 export default defineConfig({
   srcDir: 'press',
@@ -17,7 +17,7 @@ export default defineConfig({
   },
 
   vite: {
-    resolve: { alias: [...tsConfigPaths] },
+    resolve: { alias: [...tsConfigPaths, ...vpComponentAlias] },
     plugins: [unocss()],
   },
 })

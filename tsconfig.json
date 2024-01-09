@@ -7,7 +7,7 @@
     },
     "esModuleInterop": true,
     "isolatedModules": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
     "target": "esnext",
     "module": "esnext",
     "moduleDetection": "force",
