@@ -6,6 +6,10 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress": "1.0.0-rc.36"
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.2.0",
+    "unocss": "^0.58.3",
+    "vitepress": "1.0.0-rc.36",
+    "vue": "^3.4.6"
   }
 }

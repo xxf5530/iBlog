@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["*"],
+      "@/*": [".vitepress/*"]
+    },
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["esnext"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["**/*", ".vitepress/**/*"],
+  "exclude": ["**/node_modules", "**/dist"]
+}
