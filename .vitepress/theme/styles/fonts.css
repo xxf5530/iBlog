@@ -1,0 +1,20 @@
+/* @import url('https://lib.baomitu.com/lxgw-wenkai-screen-webfont/1.7.0/style.min.css'); */
+
+html body {
+  font-synthesis: style;
+}
+
+@font-face {
+  font-family: 'Chinese Quotes';
+  src: local('PingFang SC Regular'), local('PingFang SC'), local('SimHei'),
+    local('Source Han Sans SC');
+  unicode-range: U+2018, U+2019, U+201C, U+201D;
+}
+
+:root {
+  --font-prefer: 'LXGW WenKai Screen R';
+  --vp-font-base: 'Chinese Quotes', Apple Color Emoji, Segoe UI Emoji,
+    var(--font-prefer), sans-serif;
+  --vp-font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+}

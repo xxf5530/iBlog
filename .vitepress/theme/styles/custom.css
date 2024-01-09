@@ -1,0 +1,169 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+:root {
+  --vp-c-bg: #fff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: var(--vp-c-bg);
+  --vp-c-bg-soft: var(--vp-c-bg-alt);
+
+  --vp-nav-bg-color: #ffffff66;
+
+  --vp-c-border: var(--border);
+  --vp-c-divider: var(--border);
+  --vp-c-gutter: transparent;
+}
+
+:root.dark {
+  --vp-c-bg: #111;
+  --vp-c-bg-alt: #171717;
+
+  --vp-nav-bg-color: #11111199;
+}
+
+:root {
+  --vp-font-family-base: var(--vp-font-base);
+  --vp-font-family-mono: var(--vp-font-mono);
+}
+
+/**
+* Nav
+* -------------------------------------------------------------------------- */
+:root {
+  --vp-nav-height: 3.5rem;
+}
+
+.VPNav,
+.VPLocalNav {
+  position: relative;
+  background: var(--vp-nav-bg-color) !important;
+}
+
+.VPNav::after,
+.VPLocalNav::after {
+  position: absolute;
+  content: '';
+  top: -1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: saturate(180%) blur(8px);
+  z-index: -1;
+}
+
+.VPImage.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.outline {
+  outline-color: var(--vp-c-border);
+}
+
+.VPLocalNavOutlineDropdown .icon {
+  vertical-align: text-bottom;
+}
+
+/**
+ * Doc Content
+ * -------------------------------------------------------------------------- */
+.vp-doc a {
+  text-decoration-style: dotted;
+  text-underline-offset: 0.25rem;
+}
+
+.vp-doc a:hover {
+  text-decoration-style: solid;
+}
+
+.vp-doc ul {
+  padding-left: 1.75rem;
+}
+
+.vp-doc li {
+  padding-left: 0.25rem;
+}
+
+.vp-doc li::marker {
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc blockquote {
+  border-left-width: 0.25rem;
+}
+
+.vp-doc .custom-block blockquote {
+  border-left-style: none;
+}
+
+.vp-doc [class*='language-'] > button.copy {
+  transform: scale(0.9);
+  background-color: transparent;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+/**
+ * Doc Aside
+ * -------------------------------------------------------------------------- */
+.aside-curtain {
+  display: none !important;
+}
+
+.aside-content .content {
+  border-left: none;
+}
+
+.aside-content .outline-marker {
+  display: none;
+}
+
+/**
+ * Rounded
+ * -------------------------------------------------------------------------- */
+th,
+td,
+tr {
+  border: inherit !important;
+}
+
+table {
+  --border-table: 1px solid var(--vp-c-border);
+  width: fit-content;
+  border-radius: var(--radius, 0.5rem);
+  border-spacing: 0;
+  border-collapse: separate !important;
+  border: var(--border-table) !important;
+  overflow: hidden;
+}
+
+table th:not(:last-child),
+table td:not(:last-child) {
+  border-right: var(--border-table) !important;
+}
+
+table > thead > tr:not(:last-child) > th,
+table > thead > tr:not(:last-child) > td,
+table > tbody > tr:not(:last-child) > th,
+table > tbody > tr:not(:last-child) > td,
+table > tfoot > tr:not(:last-child) > th,
+table > tfoot > tr:not(:last-child) > td,
+table > tr:not(:last-child) > td,
+table > tr:not(:last-child) > th,
+table > thead:not(:last-child),
+table > tbody:not(:last-child),
+table > tfoot:not(:last-child) {
+  border-bottom: var(--border-table) !important;
+}
+
+img {
+  border-radius: var(--radius, 0.5rem);
+}
+
+.custom-block {
+  border-radius: var(--radius, 0.5rem);
+}

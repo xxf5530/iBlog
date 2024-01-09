@@ -9,6 +9,13 @@ export default defineConfig({
   cleanUrls: true,
   title: '小凡の网络日志',
   themeConfig,
+
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+  },
+
   vite: {
     resolve: { alias: [...tsConfigPaths] },
     plugins: [unocss()],

@@ -19,8 +19,9 @@ export const nav: ThemeConfig['nav'] = [
 export default <ThemeConfig>{
   nav,
   logo: { light: '/ai.png', dark: '/fire.png' },
-  outline: { label: '本页', level: [2, 3] },
+  outline: { label: '本页导览', level: [2, 3] },
   sidebarMenuLabel: '目录',
   returnToTopLabel: '返回顶部',
   darkModeSwitchLabel: '深色模式',
+  externalLinkIcon: true,
 }
